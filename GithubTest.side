@@ -1,0 +1,290 @@
+{
+  "id": "a91ecff2-1a9f-4a44-bea3-ba3e5f8efb56",
+  "version": "2.0",
+  "name": "GithubTest",
+  "url": "https://github.com/",
+  "tests": [{
+    "id": "8741fea9-43af-441e-9d40-31b2d93f90c0",
+    "name": "GithubTest",
+    "commands": [{
+      "id": "1b5f0148-1a46-41e6-ade9-72ad6cf99d22",
+      "comment": "",
+      "command": "open",
+      "target": "https://github.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de07c7f8-7414-4de2-aff0-48fbb5119a7d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1430x910",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6b04644-0bbd-46c1-8f99-966b98f59b92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.feed-right-sidebar .Button-label",
+      "targets": [
+        ["css=.feed-right-sidebar .Button-label", "css:finder"],
+        ["xpath=//aside/div/form/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04d1a182-dc73-42d3-8757-c4e396814c28",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,11000)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a635550-10a2-4bbe-9920-3c7ee32002a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Primer_Brand__ButtonGroup-module__ButtonGroup___QQSsj:nth-child(3) > .Primer_Brand__Button-module__Button--primary___xIC7G",
+      "targets": [
+        ["css=.Primer_Brand__ButtonGroup-module__ButtonGroup___QQSsj:nth-child(3) > .Primer_Brand__Button-module__Button--primary___xIC7G", "css:finder"],
+        ["xpath=//section[@id='cta']/div/section/div/div/section/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://reg.githubuniverse.com/flow/github/universe24/Registration/login?utm_source=github&utm_medium=banner&utm_campaign=24banner1li')])[3]", "xpath:href"],
+        ["xpath=//section/div/div/section/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae768eeb-bdec-487a-a80d-c8dd2e9d1681",
+      "comment": "",
+      "command": "open",
+      "target": "https://reg.githubuniverse.com/flow/github/universe24/Registration/login?utm_source=github&utm_medium=banner&utm_campaign=24banner1li",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f24f6d51-11af-407e-8ca9-073dfab1096d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='workflow-login-page']/div/div/div[2]/div/div[3]/a/span",
+      "targets": [
+        ["css=.md-frame-footer .mdBtnR-text", "css:finder"],
+        ["xpath=//div[@id='workflow-login-page']/div/div/div[2]/div/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Create Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7740faf2-d612-4152-a944-0178a7c4afea",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,250)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c163841-c317-4146-8d72-0286d4abeaf3",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"rf-text-input-node-workflow-text-formAttendee-firstname\"]",
+      "targets": [
+        ["css=*[data-test=\"rf-text-input-node-workflow-text-formAttendee-firstname\"]", "css:data-attr"],
+        ["id=formAttendee-firstname", "id"],
+        ["css=#formAttendee-firstname", "css:finder"],
+        ["xpath=//input[@id='formAttendee-firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='wf-formAttendee-firstname']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fd05391-826e-4473-830c-97237f0cf871",
+      "comment": "",
+      "command": "type",
+      "target": "css=*[data-test=\"rf-text-input-node-workflow-text-formAttendee-firstname\"]",
+      "targets": [
+        ["css=*[data-test=\"rf-text-input-node-workflow-text-formAttendee-firstname\"]", "css:data-attr"],
+        ["id=formAttendee-firstname", "id"],
+        ["css=#formAttendee-firstname", "css:finder"],
+        ["xpath=//input[@id='formAttendee-firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='wf-formAttendee-firstname']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ivan"
+    }, {
+      "id": "3bfe408e-8756-4c41-8c3f-5387beed51c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"rf-text-input-node-workflow-text-formAttendee-lastname\"]",
+      "targets": [
+        ["css=*[data-test=\"rf-text-input-node-workflow-text-formAttendee-lastname\"]", "css:data-attr"],
+        ["id=formAttendee-lastname", "id"],
+        ["css=#formAttendee-lastname", "css:finder"],
+        ["xpath=//input[@id='formAttendee-lastname']", "xpath:attributes"],
+        ["xpath=//div[@id='wf-formAttendee-lastname']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25402e53-f2e3-495e-a2e7-ce2cbec67b7b",
+      "comment": "",
+      "command": "type",
+      "target": "css=*[data-test=\"rf-text-input-node-workflow-text-formAttendee-lastname\"]",
+      "targets": [
+        ["css=*[data-test=\"rf-text-input-node-workflow-text-formAttendee-lastname\"]", "css:data-attr"],
+        ["id=formAttendee-lastname", "id"],
+        ["css=#formAttendee-lastname", "css:finder"],
+        ["xpath=//input[@id='formAttendee-lastname']", "xpath:attributes"],
+        ["xpath=//div[@id='wf-formAttendee-lastname']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Ivanov"
+    }, {
+      "id": "d41aac18-599a-4855-9f92-f7bc67e8fce6",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"rf-text-input-node-workflow-text-formAttendee-email\"]",
+      "targets": [
+        ["css=*[data-test=\"rf-text-input-node-workflow-text-formAttendee-email\"]", "css:data-attr"],
+        ["id=formAttendee-email", "id"],
+        ["css=#formAttendee-email", "css:finder"],
+        ["xpath=//input[@id='formAttendee-email']", "xpath:attributes"],
+        ["xpath=//div[@id='wf-formAttendee-email']/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f43c167b-a2e2-4a24-8a3b-a97b85d786b9",
+      "comment": "",
+      "command": "type",
+      "target": "css=*[data-test=\"rf-text-input-node-workflow-text-formAttendee-email\"]",
+      "targets": [
+        ["css=*[data-test=\"rf-text-input-node-workflow-text-formAttendee-email\"]", "css:data-attr"],
+        ["id=formAttendee-email", "id"],
+        ["css=#formAttendee-email", "css:finder"],
+        ["xpath=//input[@id='formAttendee-email']", "xpath:attributes"],
+        ["xpath=//div[@id='wf-formAttendee-email']/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "Ivan.ivanov@inbox.ru"
+    }, {
+      "id": "e7507b66-1d17-4001-9856-273679b4c786",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,450)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2bd7c1f-eb4f-4743-8a06-ce0ac49b430d",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"rf-text-input-node-workflow-text-password\"]",
+      "targets": [
+        ["css=*[data-test=\"rf-text-input-node-workflow-text-password\"]", "css:data-attr"],
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='wf-password']/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba5fb0d2-510a-4641-9152-a5010e283115",
+      "comment": "",
+      "command": "type",
+      "target": "css=*[data-test=\"rf-text-input-node-workflow-text-password\"]",
+      "targets": [
+        ["css=*[data-test=\"rf-text-input-node-workflow-text-password\"]", "css:data-attr"],
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='wf-password']/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": "Ap9shhaz101da"
+    }, {
+      "id": "3ea00d7a-02f7-4335-a41f-83a80e3cb78e",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"rf-text-input-node-workflow-text-confirmpassword\"]",
+      "targets": [
+        ["css=*[data-test=\"rf-text-input-node-workflow-text-confirmpassword\"]", "css:data-attr"],
+        ["id=confirmpassword", "id"],
+        ["css=#confirmpassword", "css:finder"],
+        ["xpath=//input[@id='confirmpassword']", "xpath:attributes"],
+        ["xpath=//div[@id='wf-confirmpassword']/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70e9d364-c942-4075-ae31-a18c17562417",
+      "comment": "",
+      "command": "type",
+      "target": "css=*[data-test=\"rf-text-input-node-workflow-text-confirmpassword\"]",
+      "targets": [
+        ["css=*[data-test=\"rf-text-input-node-workflow-text-confirmpassword\"]", "css:data-attr"],
+        ["id=confirmpassword", "id"],
+        ["css=#confirmpassword", "css:finder"],
+        ["xpath=//input[@id='confirmpassword']", "xpath:attributes"],
+        ["xpath=//div[@id='wf-confirmpassword']/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/input", "xpath:position"]
+      ],
+      "value": "Ap9shhaz101da"
+    }, {
+      "id": "21b6e09a-83b2-4e2a-945a-37727778e8a4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf8ef5ca-81e6-4e51-a669-743d053d3312",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"rf-button-submit-form\"]",
+      "targets": [
+        ["css=*[data-test=\"rf-button-submit-form\"]", "css:data-attr"],
+        ["id=wf-btn-submit", "id"],
+        ["css=#wf-btn-submit", "css:finder"],
+        ["xpath=//button[@id='wf-btn-submit']", "xpath:attributes"],
+        ["xpath=//form[@id='myDynamicForm']/div[9]/span[2]/button", "xpath:idRelative"],
+        ["xpath=//span[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ee456ff-acc9-410c-be65-c4c5a190cd49",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=*[data-test=\"rf-text-input-error-workflow-text-password\"]",
+      "targets": [
+        ["css=*[data-test=\"rf-text-input-error-workflow-text-password\"]", "css:data-attr"],
+        ["id=fe99e81d-ab4a-4f7f-b07b-eed36f61b57b", "id"],
+        ["css=#fe99e81d-ab4a-4f7f-b07b-eed36f61b57b", "css:finder"],
+        ["xpath=//span[@id='fe99e81d-ab4a-4f7f-b07b-eed36f61b57b']", "xpath:attributes"],
+        ["xpath=//div[@id='wf-password']/div/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Passwords must include: a special character (!@#$%)')]", "xpath:innerText"]
+      ],
+      "value": "Passwords must include: a special character (!@#$%)"
+    }, {
+      "id": "42e7a71b-48e2-4cb0-af42-a325354248f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.octocat",
+      "targets": [
+        ["css=.octocat", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d1a2696-f165-4084-ba7e-faaafc9d9a20",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "093dd022-afaf-42e3-a363-1eabfdd2cc04",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8741fea9-43af-441e-9d40-31b2d93f90c0"]
+  }],
+  "urls": ["https://github.com/"],
+  "plugins": []
+}
